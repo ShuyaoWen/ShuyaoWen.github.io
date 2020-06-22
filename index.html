@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Shuyao Wen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/60cccc8fd2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a class="navlink" href="#start">Shuyao Wen</a></li>
+                <li><a class="navlink" href="#ski-img">About Me</a></li>
+                <li><a class="navlink" href="#skills">Skills</a></li>
+                <li><a class="navlink" href="#projects">Projects</a></li>
+                <li><a class="navlink" href="#contacts">Contact/Resume</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="container start" id="start">
+        <div>
+            <h1 class="typer first-type">Hi, I'm Shuyao</h1>
+            <h1 class="typer second-type">Nice to meet you!</h1>
+        </div>
+    </div>
+
+    <div class="card-container">
+        <div class="card-pair" id="about-pair">
+            <div class="about-me fade">
+                <img src="images/skiing.jpg" class="vertical-image" id="ski-img">
+                <div class="about-text" id="about">
+                    <h1>About Me</h1>
+                    <p>
+                        I am a computer engineering student at the University of British Columbia. <br><br>I’m
+                        interested in
+                        developing software, and messing around with hardware. <br><br>I also enjoy
+                        many outdoor activities, including hiking, bike trips, and skiing.
+                    </p>
+                </div>
+                
+            </div>
+
+            <div class="fade" id="skills">
+                <h1 id="skills" class="inverted-text">Skills</h1>
+                <div class="card inverted-text">
+                    <h2>
+                        Software
+                    </h2>
+                    <ul>
+                        <li>C/C++</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>HTML/CSS/JavaScript</li>
+                        <li>MATLAB</li>
+                        <li>Git</li>
+                        <li>Command Line</li>
+                    </ul>
+                </div>
+
+                <div class="card inverted-text">
+                    <h2>
+                        Hardware
+                    </h2>
+                    <ul>
+                        <li>Verilog</li>
+                        <li>Arm Assembly</li>
+                        <li>X86/Y86 Assembly</li>
+                        <li>Microcontrollers</li>
+                        <li>Function Generator</li>
+                        <li>Oscilloscope</li>
+                        <li>Soldering</li>
+                        <li>Circuit Analysis/Design</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <h1 class="inverted-text fade" id="projects">Below are some projects that I worked on</h1>
+
+        <div class="card-pair text" id="project-container">
+            <a href="https://www.youtube.com/watch?v=XR2ank7hjFc" target="_blank" class="link">
+                <div class='project-card fade'>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/XR2ank7hjFc" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                        class="project" id="video"></iframe>
+                    <h2 class="project-label">Robotic Car</h2>
+                </div>
+            </a>
+
+            <a href="https://codepen.io/ShuyaoWen/full/MWaqGJx" target="blank" class="link">
+                <div class="project-card fade">
+                    <img src="images/Euler Tribute Page.png" class="project">
+                    <h2 class="project-label">Leonhard Euler Tribute Page</h2>
+                </div>
+            </a>
+
+        </div>
+
+        <a target="_blank" class="link">
+            <div class="project-card fade">
+                <img src="images/personal portfolio page.png" class="project">
+                <h2 class="project-label">Personal Portfolio Page</h2>
+            </div>
+        </a>
+        
+
+    </div>
+
+    <div class="container contacts" id="contacts">
+        <h1 class="inverted-text contact-section-header">Let's create something together</h1>
+        <div class="contact-container">
+            <a href="https://github.com/ShuyaoWen" class="contact-details"><i class="fa fa-github"></i>GitHub</a>
+            <a href="mailto:wenshuyao@hotmail.com" class="contact-details"><i class="fas fa-at"></i>Email</a>
+            <a class="contact-details" target="_blank"><i class="far fa-file"></i>Resume</a>
+        </div>
+
+
+    </div>
+
+    <p class="fine-print">Designed and Made by Shuyao Wen</p>
+
+    <script src="main.js" defer></script>
+
+</body>
+
+</html>
