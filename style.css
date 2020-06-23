@@ -35,7 +35,7 @@ body {
 
 .nav-list {
     height: var(--navbar-height);
-    color: white;
+    
     margin: auto;
     display: flex;
     justify-content: space-evenly;
@@ -45,8 +45,8 @@ body {
 }
 
 .navlink {
-    color: white;
     text-decoration: none;
+    color: #F7F5F6;
 }
 
 .navlink:hover {
@@ -186,13 +186,13 @@ body {
     }
 }
 
-.contact-container{
+.contact-container {
     width: 50%;
     display: flex;
     justify-content: space-evenly;
 }
 
-.contact-container i{
+.contact-container i {
     margin: 5px;
 }
 
@@ -202,11 +202,11 @@ body {
     text-decoration: none;
 }
 
-.contact-details:hover{
+.contact-details:hover {
     text-decoration: underline;
 }
 
-.link{
+.link {
     text-decoration: none;
 }
 
@@ -218,7 +218,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .container-center {
@@ -237,8 +236,6 @@ body {
     align-items: center;
     height: 100vh;
 }
-
-
 
 .about-me {
     display: grid;
@@ -298,7 +295,7 @@ body {
     border-radius: 10px;
 }
 
-.fine-print{
+.fine-print {
     text-align: center;
     margin: 0;
     padding: 0;
@@ -308,21 +305,18 @@ body {
     background-color: #9DBBE2;
 }
 
-@media (max-width: 1200px){
-    .card-container{
+@media (max-width: 1200px) {
+    .card-container {
         height: 3340px;
     }
-
-    .card-pair{
+    .card-pair {
         flex-direction: column;
     }
-
-    #project-container{
+    #project-container {
         height: 860px;
         justify-content: space-between;
     }
-
-    #about-pair{
+    #about-pair {
         height: 1500px;
         justify-content: space-between;
     }
