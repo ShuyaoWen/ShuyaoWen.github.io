@@ -28,7 +28,6 @@ function handleIntersect(entries, observer) {
         let viewportHeight = window.innerHeight
         // get height of observed element
         let elementHeight = element.target.offsetHeight;
-        console.log(viewportHeight + " " + elementHeight);
         // if observed element is smaller than viewport, set opacity to intersection ratio
         // else set opacity = intersection ratio * viewport height / element height
         if(viewportHeight >= elementHeight){
