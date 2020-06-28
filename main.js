@@ -28,13 +28,14 @@ function handleIntersect(entries, observer) {
         let viewportHeight = window.innerHeight
         // get height of observed element
         let elementHeight = element.target.offsetHeight;
+        console.log(viewportHeight + " " + elementHeight);
         // if observed element is smaller than viewport, set opacity to intersection ratio
         // else set opacity = intersection ratio * viewport height / element height
         if(viewportHeight >= elementHeight){
             element.target.style.opacity = element.intersectionRatio;
         }
         else {
-            element.target.style.opacity = element.intersectionRatio * viewportHeight / elementHeight;
+            element.target.style.opacity = element.intersectionRatio * elementHeight / viewportHeight;
         }
         
     });
@@ -43,8 +44,6 @@ function handleIntersect(entries, observer) {
 observer = new IntersectionObserver(handleIntersect, options);
 
 let fade_items = document.querySelectorAll(".fade");
-
-console.log(fade_items);
 
 fade_items.forEach(element => {
     observer.observe(element);
