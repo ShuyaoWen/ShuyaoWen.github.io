@@ -63,8 +63,19 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
-    color: #365DA1;
+    animation: link-hover 0.4s forwards;
+}
+
+@keyframes link-hover{
+    0%{
+        text-decoration: none;
+        color: #F7F5F6;
+    }
+
+    100%{
+        text-decoration: underline;
+        color: #365DA1;
+    }
 }
 
 /* typing animation ----------------------------------------------------------------------------------- */
