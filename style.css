@@ -160,24 +160,14 @@ a:hover {
     padding-bottom: var(--grid-spacing);
     background: linear-gradient(#365DA1, #859ABB);
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(minmax(1, 2), 560px);
     justify-content: space-evenly;
     justify-items: center;
-    grid-template-areas: 
-        "intro intro"
-        "header header";
     row-gap: var(--grid-spacing);
 }
 
-@media (max-width: 1200px) {
-    .grid{
-        grid-template-columns: repeat(1, auto);
-        grid-template-areas: "intro" "intro" "header";
-    }
-}
-
 .header{
-    grid-area: header;
+    grid-column: 1 / -1;
     text-align: center;
 }
 
