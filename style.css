@@ -160,7 +160,7 @@ a:hover {
     padding-bottom: var(--grid-spacing);
     background: linear-gradient(#365DA1, #859ABB);
     display: grid;
-    grid-template-columns: repeat(minmax(1, 2), 560px);
+    grid-template-columns: repeat(autofill, minmax(560px, 1fr));
     justify-content: space-evenly;
     justify-items: center;
     row-gap: var(--grid-spacing);
