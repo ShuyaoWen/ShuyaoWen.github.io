@@ -248,6 +248,12 @@ a:hover {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    transition: transform 0.4s;
+}
+
+.project-card:hover{
+    
+    transform: scale(1.1);
 }
 
 .project-img {
