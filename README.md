@@ -1,2 +1,2 @@
 # ShuyaoWen.github.io
-Shuyao's personal portfolio page: https://ShuyaoWen.github.io
+See the website in action: https://ShuyaoWen.github.io
