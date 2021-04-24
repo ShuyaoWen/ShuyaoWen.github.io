@@ -161,11 +161,25 @@ a:hover {
 
 .start {
     background-color: var(--light-shade);
-    background-image: url("images/circuit-board.svg");
+    /* background-image: url("images/circuit-board.svg"); */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+svg {
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+#start-text{
+    position: absolute;
+    top: center;
+    left: center;
 }
 
 /* Grid styling ----------------------------------------------------------------------------------- */
